@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIverse - Cinematic Video Editing | Anime Style Edits</title>
+    <meta name="description" content="Professional video editing services for YouTube, Instagram Reels & cinematic content. Anime-inspired edits that captivate audiences.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2300d4ff'/><text y='.9em' font-size='90'>A</text></svg>">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">ANIverse</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Work</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>ANIverse</h1>
+            <p><strong>Cinematic Video Editing</strong><br>
+            Turning Ideas into Visual Stories</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Hire Me Now</a>
+                <a href="#portfolio" class="btn btn-secondary">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="glass-card">
+        <div class="container">
+            <h2 class="section-title">About ANIverse</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Passionate Video Editor & YouTube Creator</h3>
+                    <p>I specialize in creating <strong>cinematic edits</strong> that captivate audiences. From high-energy YouTube videos to viral Instagram Reels, I bring anime-inspired storytelling to life.</p>
+                    <p>With years of experience in <strong>motion graphics, color grading, and sound design</strong>, I help creators stand out in crowded feeds.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Cinematic Edits</span>
+                        <span class="skill-tag">YouTube Videos</span>
+                        <span class="skill-tag">Instagram Reels</span>
+                        <span class="skill-tag">Anime Style</span>
+                        <span class="skill-tag">Thumbnails</span>
+                        <span class="skill-tag">Motion Graphics</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-video">
+                        <i class="fas fa-video"></i>
+                        <p>Editor at Work</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <video class="portfolio-video" muted loop playsinline>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-neon-lines-in-motion-1201-small.mp4" type="video/mp4">
+                    </video>
+                    <div class="portfolio-overlay">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h4>YouTube Cinematic</h4>
+                        <span class="category">Cinematic</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <video class="portfolio-video" muted loop playsinline>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-animated-neon-glitch-text-reveal-30614-small.mp4" type="video/mp4">
+                    </video>
+                    <div class="portfolio-overlay">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h4>Instagram Reel</h4>
+                        <span class="category">Reels</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <video class="portfolio-video" muted loop playsinline>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-colorful-background-animation-1202-small.mp4" type="video/mp4">
+                    </video>
+                    <div class="portfolio-overlay">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h4>Shorts Edit</h4>
+                        <span class="category">Shorts</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <video class="portfolio-video" muted loop playsinline>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-neon-lines-in-motion-1201-small.mp4" type="video/mp4">
+                    </video>
+                    <div class="portfolio-overlay">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h4>Documentary</h4>
+                        <span class="category">Documentary</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <video class="portfolio-video" muted loop playsinline>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-animated-neon-glitch-text-reveal-30614-small.mp4" type="video/mp4">
+                    </video>
+                    <div class="portfolio-overlay">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h4>Music Video</h4>
+                        <span class="category">Music</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <video class="portfolio-video" muted loop playsinline>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-colorful-background-animation-1202-small.mp4" type="video/mp4">
+                    </video>
+                    <div class="portfolio-overlay">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h4>Brand Promo</h4>
+                        <span class="category">Promo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="glass-card">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card glass-card">
+                    <i class="fas fa-play-circle"></i>
+                    <h4>YouTube Videos</h4>
+                    <p>Professional long-form edits with cinematic transitions, color grading, and sound design.</p>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Instagram Reels</h4>
+                    <p>Viral-ready short-form content optimized for maximum engagement and algorithm performance.</p>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-film"></i>
+                    <h4>Cinematic Edits</h4>
+                    <p>Hollywood-style storytelling with anime-inspired effects and premium visual polish.</p>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-image"></i>
+                    <h4>Thumbnail Design</h4>
+                    <p>Clickbait thumbnails that convert - custom designs guaranteed to boost CTR.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section id="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why Choose ANIverse?</h2>
+            <div class="features-grid">
+                <div class="feature-card glass-card">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Fast Delivery</h4>
+                    <p>24-48 hour turnaround for most projects. Never miss deadlines.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <i class="fas fa-palette"></i>
+                    <h4>Creative Edits</h4>
+                    <p>Anime-inspired creativity that makes your content stand out.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Trending Style</h4>
+                    <p>Algorithm-optimized edits using current trends and techniques.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <i class="fas fa-heart"></i>
+                    <h4>100% Satisfaction</h4>
+                    <p>Unlimited revisions until you're thrilled with the result.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="glass-card">
+        <div class="container">
+            <h2 class="section-title">What Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-card">
+                    <p>"ANIverse transformed my boring footage into viral gold! My views tripled overnight."</p>
+                    <div class="testimonial-author">
+                        <strong>CreatorX</strong> <br>
+                        <small>YouTube (50K subs)</small>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <p>"Best Reels editor I've worked with. Super fast and creative anime-style edits!"</p>
+                    <div class="testimonial-author">
+                        <strong>InstaBrand</strong> <br>
+                        <small>Instagram (20K followers)</small>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <p>"Thumbnails alone doubled my CTR. Professional quality at affordable rates."</p>
+                    <div class="testimonial-author">
+                        <strong>MusicArtist</strong> <br>
+                        <small>Independent Artist</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <h2 class="section-title">Ready to Level Up?</h2>
+            <p style="text-align: center; font-size: 1.3rem; margin-bottom: 3rem; color: var(--text-secondary);">
+                Let's create something epic together
+            </p>
+            
+            <div class="contact-content">
+                <div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <div>+91 9770491377</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <strong>Instagram DM</strong>
+                                <div>@ani.verssee</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <div>aniruddh6ix9ine@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-buttons-large">
+                    <a href="https://wa.me/919770491377?text=Hi%20ANIverse!%20I'm%20interested%20in%20your%20video%20editing%20services%20🚀" 
+                       class="btn btn-primary" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Start WhatsApp Chat
+                    </a>
+                    <a href="https://instagram.com/ani.verssee" 
+                       class="btn btn-secondary" target="_blank">
+                        <i class="fab fa-instagram"></i> Message on Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://instagram.com/ani.verssee" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/919770491377" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:aniruddh6ix9ine@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        <p>&copy; 2024 ANIverse. All rights reserved. | Cinematic Video Editing</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Loading Screen
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loading').style.opacity = '0';
+                setTimeout(() => {
+                    document.getElementById('loading').style.display = 'none';
+                }, 500);
+            }, 1500);
+        });
+
+        // Custom Cursor
+        const cursor = document.getElementById('cursor');
+        const cursorFollower = document.getElementById('cursor-follower');
+        let mouseX = 0, mouseY = 0;
+        let cursorX = 0, cursorY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        function updateCursor() {
+            cursorX += (mouseX - cursorX) * 0.1;
+            cursorY += (mouseY - cursorY) * 0.1;
+            cursor.style.left = cursorX + 'px';
+            cursor.style.top = cursorY + 'px';
+            
+            cursorFollower.style.left = cursorX + 'px';
+            cursorFollower.style.top = cursorY + 'px';
+            requestAnimationFrame(updateCursor);
+        }
+        updateCursor();
+
+        // Hover Effects for Cursor
+        document.querySelectorAll('a, button, .portfolio-item, .glass-card').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursor.style.transform = 'scale(1.5)';
+                cursorFollower.style.transform = 'scale(2)';
+                cursorFollower.style.opacity = '0.8';
+            });
+            el.addEventListener('mouseleave', () => {
+                cursor.style.transform = 'scale(1)';
+                cursorFollower.style.transform = 'scale(1)';
+                cursorFollower.style.opacity = '0.5';
+            });
+        });
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.style.background = 'rgba(10, 10, 10, 0.95)';
+                navbar.style.backdropFilter = 'blur(30px)';
+            } else {
+                navbar.style.background = 'rgba(10, 10, 10, 0.9)';
+                navbar.style.backdropFilter = 'blur(20px)';
+            }
+        });
+
+        // Mobile Menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Smooth Scrolling & Active Nav
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+                
+                // Close mobile menu
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Active Nav Link on Scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Portfolio Video Hover
+        document.querySelectorAll('.portfolio-item').forEach(item => {
+            item.addEventListener('mouseenter', () => {
+                const video = item.querySelector('.portfolio-video');
+                if (video
